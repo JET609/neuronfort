@@ -4,6 +4,15 @@
 
 NeuronFort is a friendly starting point for people learning defensive security. It collects trusted, open-source tools by job, explains where they fit, and points newcomers toward an ethical learning path.
 
+## Choose your next step
+
+| If you want to… | Start with… |
+| --- | --- |
+| Learn the fundamentals | The [four-week defensive learning path](docs/learning-path.md). |
+| Add a useful resource | The [tool evaluation checklist](docs/tool-evaluation.md). |
+| Suggest a link or correction | An issue using one of our templates. |
+| Contribute a larger improvement | [CONTRIBUTING.md](CONTRIBUTING.md). |
+
 ## Start here
 
 Security work should always be authorized. Use these tools only on systems you own or where you have explicit, written permission to test. The goal is to understand, protect, and improve systems—not to access or disrupt someone else's.
@@ -46,6 +55,14 @@ These platforms provide legal, intentionally designed practice environments:
 3. **Observe** logs and network activity so abnormal behavior has context.
 4. **Test** only with authorization and a defined scope.
 5. **Fix and verify** findings, then record what changed.
+
+## Recommended habits
+
+- Keep systems and dependencies updated.
+- Use a password manager and enable multi-factor authentication.
+- Back up important data and test that recovery works.
+- Treat unexpected files, links, and requests with care.
+- Share security findings privately and give maintainers time to fix them.
 
 ## Contribute
 
