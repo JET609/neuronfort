@@ -1,79 +1,61 @@
-# NeuronFort
+# NeuronFort Security
 
-> A community-maintained guide to open-source cybersecurity tools, learning resources, and responsible security practice.
+![NeuronFort Security signal architecture](assets/neuronfort-signal.svg)
 
-NeuronFort is a friendly starting point for people learning defensive security. It collects trusted, open-source tools by job, explains where they fit, and points newcomers toward an ethical learning path.
+> Evidence-first security operations, thoughtful automation, and practical security learning.
 
-## Choose your next step
+[Website](https://neuronfort.online/) · [Security policy](SECURITY.md) · [Contributing](CONTRIBUTING.md) · [Learning path](docs/learning-path.md)
 
-| If you want to… | Start with… |
+## Building security operations people can trust
+
+NeuronFort is an early cybersecurity startup building toward an AI-assisted security operations workspace for small security teams and MSPs. Our product direction is simple: give analysts clearer evidence, use automation for repeatable work, and keep meaningful decisions visible and human-reviewed.
+
+This public repository is the NeuronFort learning and community hub. It shares practical defensive-security resources, transparent contribution guidance, and the principles behind responsible security work.
+
+## What we are working toward
+
+| Focus | What it means at NeuronFort |
 | --- | --- |
-| Learn the fundamentals | The [four-week defensive learning path](docs/learning-path.md). |
-| Add a useful resource | The [tool evaluation checklist](docs/tool-evaluation.md). |
-| Suggest a link or correction | An issue using one of our templates. |
-| Contribute a larger improvement | [CONTRIBUTING.md](CONTRIBUTING.md). |
+| **Evidence first** | Alerts should arrive with the context needed to understand them. |
+| **Explainable automation** | Automation should make repeatable work faster, not hide why a decision was made. |
+| **Human control** | High-impact actions must remain reviewable and explicitly approved by people. |
+| **Safe by design** | Tenant boundaries, authorization, and auditability belong in the foundation. |
 
-## Start here
+## Explore the hub
 
-Security work should always be authorized. Use these tools only on systems you own or where you have explicit, written permission to test. The goal is to understand, protect, and improve systems—not to access or disrupt someone else's.
+| Start here | What you will find |
+| --- | --- |
+| [Defensive learning path](docs/learning-path.md) | A practical four-week route through networking, labs, documentation, and defensive fundamentals. |
+| [Tool evaluation guide](docs/tool-evaluation.md) | A repeatable way to assess whether a security tool is appropriate, sustainable, and safe to use. |
+| [Contributing guide](CONTRIBUTING.md) | How to suggest resources, improve docs, or help shape the hub. |
+| [Security policy](SECURITY.md) | The responsible way to report a vulnerability in this repository or related project infrastructure. |
 
-If you are new to cybersecurity, build the fundamentals first:
+## NeuronFort ecosystem
 
-1. Learn networking: IP addresses, DNS, HTTP(S), routing, and ports.
-2. Learn a little Linux and the command line.
-3. Practice safely in a lab, CTF, or deliberately vulnerable application.
-4. Read a report, document your findings, and learn how remediation works.
+| Destination | Purpose |
+| --- | --- |
+| [neuronfort.online](https://neuronfort.online/) | Product story, security operations vision, and early startup progress. |
+| **This repository** | Public learning resources, responsible-practice guidance, and community contribution. |
+| [Security policy](SECURITY.md) | Private, responsible vulnerability reporting route. |
 
-## Tool map
+## Responsible security, always
 
-| Area | Tools | What they help with |
-| --- | --- | --- |
-| Network visibility | [Wireshark](https://www.wireshark.org/), [Zeek](https://zeek.org/) | Inspect traffic and identify unusual behavior. |
-| Vulnerability management | [Greenbone Community Edition](https://greenbone.github.io/docs/latest/), [Nuclei](https://github.com/projectdiscovery/nuclei) | Find known weaknesses in authorized environments. |
-| Web application testing | [OWASP ZAP](https://www.zaproxy.org/), [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload) | Understand and test web application security. |
-| Endpoint and forensics | [Velociraptor](https://docs.velociraptor.app/), [Autopsy](https://www.autopsy.com/) | Investigate endpoints and analyze evidence. |
-| Detection engineering | [Sigma](https://sigmahq.io/), [YARA](https://virustotal.github.io/yara/) | Write portable detection rules and identify malware patterns. |
-| Password defense | [KeePassXC](https://keepassxc.org/), [Have I Been Pwned](https://haveibeenpwned.com/) | Improve credential hygiene and assess exposure. |
-| Security monitoring | [Wazuh](https://wazuh.com/), [Security Onion](https://securityonionsolutions.com/) | Centralize telemetry, alerts, and investigations. |
+Use security tools only on systems you own or where you have explicit written authorization to assess them. NeuronFort supports defensive learning, safe testing, responsible disclosure, and improvement—not unauthorized access, disruption, credential theft, or evasion.
 
-Tool availability, licensing, and capabilities change over time. Always check the project's official documentation before using a tool in production.
-
-## Learn by doing—safely
-
-These platforms provide legal, intentionally designed practice environments:
-
-- [OWASP WebGoat](https://owasp.org/www-project-webgoat/) — hands-on web-security lessons.
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — guided web-app labs.
-- [picoCTF](https://picoctf.org/) — beginner-friendly capture-the-flag challenges.
-- [OverTheWire](https://overthewire.org/wargames/) — command-line and security fundamentals.
-- [TryHackMe](https://tryhackme.com/) — guided learning paths and labs.
-
-## A practical defensive workflow
-
-1. **Inventory** what you own: services, software, identities, and data.
-2. **Harden** systems with updates, least privilege, MFA, backups, and secure defaults.
-3. **Observe** logs and network activity so abnormal behavior has context.
-4. **Test** only with authorization and a defined scope.
-5. **Fix and verify** findings, then record what changed.
-
-## Recommended habits
-
-- Keep systems and dependencies updated.
-- Use a password manager and enable multi-factor authentication.
-- Back up important data and test that recovery works.
-- Treat unexpected files, links, and requests with care.
-- Share security findings privately and give maintainers time to fix them.
+For anyone beginning their security journey, we recommend starting with the [learning path](docs/learning-path.md), practicing in a safe lab, and documenting what you learn.
 
 ## Contribute
 
-NeuronFort grows through practical, well-sourced contributions. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. For expected community behavior, see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+We welcome well-sourced, practical additions that help people protect systems responsibly. Before opening a pull request, read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-To report a vulnerability in this repository or its project infrastructure, follow [SECURITY.md](SECURITY.md). Do not publish sensitive details in a public issue.
+- Suggest a learning resource or correction with an issue.
+- Add context to an existing resource using the [tool evaluation guide](docs/tool-evaluation.md).
+- Report security issues privately through [SECURITY.md](SECURITY.md)—never post sensitive details in a public issue.
 
-## Scope
+## Status
 
-NeuronFort prioritizes defensive security, responsible disclosure, and educational use. It does not host exploit payloads, credential theft guidance, evasion techniques, or instructions for unauthorized access.
+NeuronFort is in an early product-building stage. Public materials here are educational and community-focused; they are not a managed security service, a production monitoring platform, or a substitute for a professional assessment.
 
 ## License
 
-Unless noted otherwise, this repository's written content is available under the [MIT License](LICENSE).
+Unless noted otherwise, the written content in this repository is available under the [MIT License](LICENSE).

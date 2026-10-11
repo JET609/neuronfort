@@ -1,0 +1,20 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NeuronFort Security</title>
+  <desc id="desc">Abstract signal architecture in midnight blue, teal, and lime.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#07111F"/><stop offset=".52" stop-color="#102E3E"/><stop offset="1" stop-color="#081724"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(934 171) rotate(90) scale(170 220)" gradientUnits="userSpaceOnUse"><stop stop-color="#C7FA49" stop-opacity=".75"/><stop offset="1" stop-color="#5AD3C3" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="673" y1="84" x2="1103" y2="266" gradientUnits="userSpaceOnUse"><stop stop-color="#C7FA49" stop-opacity=".2"/><stop offset=".52" stop-color="#C7FA49"/><stop offset="1" stop-color="#75D9CC" stop-opacity=".15"/></linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="url(#bg)"/>
+  <path d="M0 72H1280M0 144H1280M0 216H1280M0 288H1280M128 0V360M256 0V360M384 0V360M512 0V360M640 0V360M768 0V360M896 0V360M1024 0V360M1152 0V360" stroke="#B7D5E2" stroke-opacity=".08"/>
+  <circle cx="934" cy="171" r="170" fill="url(#glow)"/>
+  <circle cx="934" cy="171" r="116" stroke="#C7FA49" stroke-opacity=".34"/>
+  <circle cx="934" cy="171" r="75" stroke="#75D9CC" stroke-opacity=".42"/>
+  <circle cx="934" cy="171" r="31" fill="#C7FA49" fill-opacity=".9"/><circle cx="934" cy="171" r="12" fill="#F2FFD1"/>
+  <path d="M650 100L833 151L903 163M674 268L841 196L902 178M1011 92L959 148M1090 239L971 187" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="650" cy="100" r="5" fill="#C7FA49"/><circle cx="674" cy="268" r="5" fill="#75D9CC"/><circle cx="1011" cy="92" r="5" fill="#C7FA49"/><circle cx="1090" cy="239" r="5" fill="#75D9CC"/>
+  <text x="94" y="152" fill="#E7EDF4" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="4">NEURONFORT</text>
+  <text x="97" y="190" fill="#C7FA49" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="4">SECURITY OPERATIONS, RE-CENTERED</text>
+  <text x="97" y="242" fill="#98A7B6" font-family="Arial, Helvetica, sans-serif" font-size="16">Evidence-first intelligence. Explainable automation. Human-reviewed action.</text>
+</svg>
